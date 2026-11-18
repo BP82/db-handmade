@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DB Handmade | Link ufficiali</title>
+<meta name="description" content="Scopri DB Handmade e tutti i nostri contatti ufficiali.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f7f4ed;color:#193e30;font-family:Arial,sans-serif;text-align:center}
+main{max-width:480px;margin:auto;padding:65px 24px}
+.brand{font-family:Georgia,serif;font-size:38px;letter-spacing:2px;margin-bottom:8px}
+.subtitle{font-size:12px;letter-spacing:4px;text-transform:uppercase}
+p{line-height:1.7;color:#657268}
+.links{display:grid;gap:14px;margin-top:38px}
+a{display:block;padding:18px;border:1px solid #193e30;border-radius:3px;text-decoration:none;color:#193e30;font-weight:600}
+a:hover{background:#193e30;color:white}
+footer{margin-top:60px;font-size:12px;color:#657268}
+</style>
+</head>
+<body>
+<main>
+<div class="brand">DB Handmade</div>
+<div class="subtitle">Creazioni artigianali</div>
+<p>Ogni creazione racconta una storia.</p>
+<div class="links">
+<a href="#" data-pending="true">Instagram</a>
+<a href="#" data-pending="true">WhatsApp</a>
+<a href="#" data-pending="true">Facebook</a>
+<a href="#" data-pending="true">Sito web</a>
+<a href="#" data-pending="true">Email</a>
+</div>
+<footer>© DB Handmade</footer>
+</main>
+<script>
+document.querySelectorAll('[data-pending]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();alert('Collegamento in preparazione');}));
+</script>
+</body>
+</html>
